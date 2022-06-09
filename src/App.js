@@ -11,7 +11,6 @@ function App() {
   const [guns, setGuns] = useState([]);
   const [cart, setCart] = useState([]);
   const [modal, setModal] = useState(false);
-  console.log(guns);
 
   const customStyles = {
     content: {
