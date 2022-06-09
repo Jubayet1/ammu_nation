@@ -5,7 +5,7 @@ import { BsFillCartFill } from "react-icons/bs";
 const Navbar = ({ cart, toggleModal }) => {
   return (
     <nav className='navbar'>
-      <h1>Kopa Samsu Store</h1>
+      <h1>Ammu Nation</h1>
       <div className='cart-counter' onClick={toggleModal}>
         <span>{cart.length}</span>
         <BsFillCartFill className='icon' color='#fff' />
